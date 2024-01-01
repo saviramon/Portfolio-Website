@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+    font-family: 'Merriweather', serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* Navigation-Bar */
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side {
+    display: flex;
+    
+}
+
+.nav-wrapper > .left-side > div{
+    margin-right: 30px;
+    font-size: 1 em;
+    text-transform: uppercase;
+}
+
+.nav-wrapper > .right-side > div{
+    margin-right: 30px;
+    font-size: 1 em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper{
+    height: 20px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+   color: gray;
+   text-decoration: none;
+   transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+    color: black;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid black;
+}
+
+.active-nav-link a{
+    color: black !important;
+}
+
+/*MR2 Build*/
+
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.mr2-image-wrapper img {
+    padding: 15px;
+    width: 100%;
+}
+
+.mr2-text-wrapper {
+    padding: 15px;
+}
+
+.profile-content-wrapper h1 {
+    color: midnightblue;
+}

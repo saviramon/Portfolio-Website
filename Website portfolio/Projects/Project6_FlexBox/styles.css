@@ -1,0 +1,224 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+
+/*Navigation bar Portfolio*/
+.nav-wrapperP {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side {
+    display: flex;
+    
+}
+
+.nav-wrapperP > .left-side > div{
+    margin-right: 30px;
+    font-size: 1 em;
+    text-transform: uppercase;
+}
+
+.nav-wrapperP > .right-side > div{
+    margin-right: 30px;
+    font-size: 1 em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapperP{
+    height: 20px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapperP a {
+   color: gray;
+   text-decoration: none;
+   transition: color 0.5s;
+}
+
+.nav-link-wrapperP:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapperP a:hover {
+    color: white;
+}
+
+/*Navigation bar*/
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: .01rem white solid;
+    
+}
+
+.nav-company-title {
+    font-size: 1.2rem;
+}
+
+.nav-company-title:hover {
+    transition: 0.5s;
+    filter: brightness(70%);
+    cursor: pointer;
+}
+
+.nav-wrapper{
+    display: flex;
+    font-size: 1.1rem;
+    
+}
+
+.nav-menu{
+    margin-right: 1rem;
+}
+
+.nav-menu:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.5s;
+    filter: brightness(70%);
+}
+.nav-availability{
+    margin-right: 1rem;
+}
+
+.nav-availability:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.5s;
+    filter: brightness(70%);
+}
+
+.nav-contact-us{
+    margin-right: 1rem;
+}
+
+.nav-contact-us:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.5s;
+    filter: brightness(70%);
+}
+
+/* mission-body*/
+
+.mission-statement-container{
+    background-image: url('Retro-porsche.jpg');
+    background-size: cover;
+    height: 30rem;
+    width: auto;
+}
+
+.mission-statement-wrapper {
+    padding: 2rem;
+    font-size: 3rem;
+
+}
+
+@media only screen and (max-width: 1100px){
+    .mission-statement-wrapper{
+        background-color: black;
+        opacity: 80%;
+    }
+}
+
+/*Inventory*/
+
+.inventory-container{
+    padding: 2rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.inventory-wrapper{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    background-size: cover;
+    height: 20rem;
+    font-size: 1.5rem;
+}
+
+.inventory-wrapper img{
+    display: flex;
+    padding: 2rem;
+    width: 18.75rem;
+    height: 12.5rem;
+}
+
+.inventory-wrapper img:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    filter: brightness(10%);
+}
+
+@media only screen and (max-width: 1000px) {
+    .inventory-container{
+        height: 45rem;
+    }
+    .inventory-wrapper {
+        
+        flex-wrap: wrap; 
+    }
+  }
+  
+  @media only screen and (max-width: 842px) {
+    .inventory-container{
+        height: 80rem;
+    }
+  }
+/*Team*/
+
+.our-team-container{
+    background-color: white;
+    background-size: cover;
+    color: black;
+    padding: 2rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.our-team-wrapper img{
+    display: flex;
+    width: auto;
+    margin-left: 2rem;
+    height: 12.5rem;
+    border-radius: 1rem;
+    border: .2rem black solid;
+}
+
+.our-team-wrapper{
+    display: flex;
+    margin-top: 2rem; 
+    justify-content: center;
+    background-size: cover;
+    height: 20rem;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 1100px) {
+ 
+    .our-team-wrapper {
+        justify-content: center;
+    }
+
+    .our-team-wrapper img{
+        margin-left: .5rem;
+    }
+
+  }
+  
+  @media only screen and (max-width: 842px) {
+    .our-team-container{
+        display: none;
+    }
+  }
+  

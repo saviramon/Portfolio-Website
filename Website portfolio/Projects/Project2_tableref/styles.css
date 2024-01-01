@@ -1,0 +1,91 @@
+/* Navigation-Bar */
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side {
+    display: flex;
+    
+}
+
+.nav-wrapper > .left-side > div{
+    margin-right: 30px;
+    font-size: 1 em;
+    text-transform: uppercase;
+}
+
+.nav-wrapper > .right-side > div{
+    margin-right: 30px;
+    font-size: 1 em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper{
+    height: 20px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+   color: gray;
+   text-decoration: none;
+   transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+    color: black;
+}
+
+
+
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    }
+
+table, th, td {
+    border: 0.1px solid black;
+    border-collapse: collapse;
+    background-color: skyblue;
+    text-align: center;
+}
+
+table th{
+    color: White;
+    background-color: blue;
+    height: 40px;
+    width:auto;
+}
+table {
+    width: 100%;
+}
+
+.code{
+    font-size: 25px;
+}
+
+.th {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.description {
+    text-align: left;
+}

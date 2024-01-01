@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class = 'container'>
+        <div class = 'nav-wrapper'>
+            <div class = 'left-side'> 
+                <div class = 'nav-link-wrapper active-nav-link'>
+                    <a href = 'index.html'>Home</a>
+                </div>
+            
+                <div class = 'nav-link-wrapper'>
+                    <a href= 'about.html'>About</a>
+                </div>
+            </div>
+
+            <div class = 'right-side'>
+                <div class="name">
+                    <div>X'avier Tejada</div>
+                </div>
+            </div>
+        </div>    
+            <div class="portfolio-items-wrapper">
+                
+
+                <div class="portfolio-item-wrapper">
+                    <div class="image-container">
+                        <img class="portfolio-img-background" src="PortfolioPhotos/hacksaw.jpeg" alt="Paint Brushes" />
+                        <a href="Projects/Project1_paint/index.html" class="image-link"></a>
+                    </div>
+
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper"></div>
+
+                        <div class="subtitle">
+                            Project1_paint
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="portfolio-item-wrapper">
+                    <div class="image-container">
+                        <img class="portfolio-img-background" src="PortfolioPhotos/table.jpg" alt="Wooden table" />
+                        <a href="Projects/Project2_tableref/index.html" class="image-link"></a>
+                    </div>
+
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper"></div>
+
+                        <div class="subtitle">
+                            Project2_tableref
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="portfolio-item-wrapper">
+                    <div class="image-container">
+                        <img class="portfolio-img-background" src="PortfolioPhotos/colors.jpg" alt="Magenta, purple, yellow, green zigzag" />
+                        <a href="Projects/Project3_WebsiteStyleGuide/index.html" class="image-link"></a>
+                    </div>
+
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper"></div>
+
+                        <div class="subtitle">
+                            Project3_WebsiteStyleGuide
+                        </div>
+                    </div>
+                </div> 
+                
+
+                <div class="portfolio-item-wrapper">
+                    <div class="image-container">
+                        <img class="portfolio-img-background" src="PortfolioPhotos/img-berryblitz.jpg" alt="Image of berry blitz" />
+                        <a href="Projects/Project4_TeaCoxy/index.html" class="image-link"></a>
+                    </div>
+
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper"></div>
+
+                        <div class="subtitle">
+                            Project4_TeaCoxy
+                        </div>
+                    </div>
+                </div> 
+                
+                <div class="portfolio-item-wrapper">
+                    <div class="image-container">
+                        <img class="portfolio-img-background" src="PortfolioPhotos/feature-1.png" alt="Camera lense" />
+                        <a href="Projects/Project5_Fotomatic/index.html" class="image-link"></a>
+                    </div>
+
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper"></div>
+
+                        <div class="subtitle">
+                            Project5_Fotomatic
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="portfolio-item-wrapper">
+                    <div class="image-container">
+                        <img class="portfolio-img-background" src="PortfolioPhotos/GTR.jpg" alt="GTR tail lights" />
+                        <a href="Projects/Project6_FlexBox/index.html" class="image-link"></a>
+                    </div>
+
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper"></div>
+
+                        <div class="subtitle">
+                            Project6_FlexBox
+                        </div>
+                    </div>
+                </div> 
+                <div class="portfolio-item-wrapper">
+                    <div class="image-container">
+                        <img class="portfolio-img-background" src="PortfolioPhotos/mr2interior.jpg" alt="MR2 interior" />
+                        <a href="Projects/MR2/MR2build.html" class="image-link"></a>
+                    </div>
+
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper"></div>
+
+                            <div class="subtitle">
+                                MR2 Turbo Build
+                            </div>
+                        </div>
+                    </div> 
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
+
+    portfolioItems.forEach(portfolioItem => {
+        portfolioItem.addEventListener('mouseover', () => {
+           portfolioItem.childNodes[1].classList.add('img-darken')
+        })
+    
+        portfolioItem.addEventListener('mouseout', () => {
+            portfolioItem.childNodes[1].classList.remove('img-darken')
+        })
+    })
+</script>
+</html>

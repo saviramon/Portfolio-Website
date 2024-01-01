@@ -1,0 +1,247 @@
+/* Navigation-Bar */
+
+.nav-wrapperP {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side {
+    display: flex;
+    
+}
+
+.nav-wrapperP > .left-side > div{
+    margin-right: 30px;
+    font-size: 1 em;
+    text-transform: uppercase;
+}
+
+.nav-wrapperP > .right-side > div{
+    margin-right: 30px;
+    font-size: 1 em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapperP{
+    height: 20px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapperP a {
+   color: gray;
+   text-decoration: none;
+   transition: color 0.5s;
+}
+
+.nav-link-wrapperP:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapperP a:hover {
+    color: white;
+}
+
+/*master styles*/
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell !important;
+    background-color: black;
+    opacity: 0.9;
+}
+
+
+
+/*nav-styles*/
+head{
+    position: fixed;
+    
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+}
+
+.nav-title{
+    cursor: pointer;
+    height: 50px;
+}
+
+.nav-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+.nav-wrapper{
+    display: inline-flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.nav-wrapper:hover{
+    cursor: pointer;
+}
+
+.mission-nav{
+    padding: 5px;
+    text-decoration: none;
+}
+
+.location-nav{
+    padding: 5px;
+    text-decoration: none;
+}
+
+.featured-nav{
+    padding: 5px;
+    text-decoration: none;
+}
+
+.mission-nav:hover{
+    height: 20px;
+    border-bottom: 1px solid seashell;
+    transition: border-bottom 0.5s;
+}
+
+.featured-nav:hover{
+    height: 20px;
+    border-bottom: 1px solid seashell;
+    transition: border-bottom 0.5s;
+}
+
+.location-nav:hover{
+    height: 20px;
+    border-bottom: 1px solid seashell;
+    transition: border-bottom 0.5s;
+}
+
+/*Mission-body*/
+.mission-statement-banner{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.8;
+    line-height: 1px;
+}
+
+h2 h4{
+    text-align: center;
+}
+.body-container{
+    background-image: url('img-mission-background.jpg');
+    height: 700px;
+    width: 1200px;
+    background-size: cover;
+    top: 70px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+/*tea of the month*/
+
+.tea-month-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tea-month-container img{
+    height: 200px;
+    width: 300px;
+}
+
+.tea-month-item img:hover{
+    cursor: pointer;
+}
+
+.tea-month-container h4 {
+    position: relative;
+    text-align: center;
+  }
+
+section {
+    width: 1000px;
+    position: relative;
+    top: 70px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+
+/* locations*/
+.locations {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+  }
+  
+  .location h2{
+    position: relative;
+    justify-items: center;
+    text-align: center;
+
+  }
+  .locations > h2 {
+    padding: 30px;
+  }
+  
+  .locations-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .locations-item {
+    background-color: black;
+    opacity: 0.8;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .dummy-div {
+    height: 200px;
+  }
+  
+  footer {
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mid-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 125px;
+    height: 200px;
+    padding: 10px;
+  }
+  
+  .copyright {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+  }
